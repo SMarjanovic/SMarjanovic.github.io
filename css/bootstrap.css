@@ -9,20 +9,47 @@ html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
-body {
-  margin: 0;
+
+header{
+  padding: 20px 0;
 }
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
+
+
+
+
+header .row,
+footer .row{
+  display: flex;
+  align-items: center;
+}
+header h1{ 
+  font-weight: 600;
+  /*margin: 0;*/
+}
+
+header nav{
+  display: flex; 
+  justify-content: flex-end;
+}
+
+/*header p {
+  padding: 0 20 px;
+  margin: 0 20 px;
+ }*/
+
+.jumbotron{
+  display: flex;
+  align-items: center;
+  background-image: url("../img/Artwork-detail2WebReady.jpg");
+  background-size: cover; 
+  color:#ffffff;
+  height: 500px;
+  /*width: 1000px;*/
+} 
 hgroup,
 main,
 menu,
-/* nav, */
+nav,
 section,
 summary {
   display: block;
@@ -238,9 +265,9 @@ th {
   h3 {
     page-break-after: avoid;
   }
-  /* .navbar {
+  .navbar {
     display: none;
-  } */
+  }
   .btn > .caret,
   .dropup > .btn > .caret {
     border-top-color: #000 !important;
@@ -3623,12 +3650,12 @@ tbody.collapse.in {
   left: auto;
 }
 .dropup .caret,
-/* .navbar-fixed-bottom .dropdown .caret {
+.navbar-fixed-bottom .dropdown .caret {
   content: "";
   border-top: 0;
   border-bottom: 4px dashed;
   border-bottom: 4px solid \9;
-} */
+}
 .dropup .dropdown-menu,
 .navbar-fixed-bottom .dropdown .dropdown-menu {
   top: auto;

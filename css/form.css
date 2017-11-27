@@ -1,0 +1,147 @@
+@font-face{
+    font-family: "Gill Sans";
+    src: url("../font/GillSans.ttc");
+}
+
+@font-face{
+    font-family: "Gill Sans MT";
+    src: url("../font/Gill Sans MT.ttf");
+}
+
+/* Style for nav bar*/
+
+
+body{
+    background-color: #FCDED4;}
+
+html,body {
+    margin:0px;}
+
+.menu-row{
+    background-color:#DF7A63;
+    width: 100%;
+    position: absolute;
+    left:0px;
+    margin-left: 0px;
+    margin-right:0px;}
+
+
+.nav{
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 120%;}
+
+h1{
+    margin-left: 100px;
+    margin-bottom: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bold;}
+
+.current{
+    text-transform: uppercase;
+    color: rgb(245, 191, 173);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 120%;
+}
+
+
+
+/* Style for form */
+
+form{
+    margin-top: 230px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #99837B;
+    border-radius: 5px; 
+    padding-top: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 70px;
+    margin-bottom: 25px;
+}
+
+legend{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    border-top:0px solid #000000;
+    border-left: 0px solid #000000;
+    border-right: 0px solid #000000;
+    border-bottom: 10px;
+    border-style: solid;
+    border-color: #CA8B7B;
+    margin-left: 400px;
+    margin-right: 400px;
+   padding-bottom: 10px;
+}
+
+li{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    margin:0px;
+    padding: 0px;
+}
+
+.radios{
+    background:none;
+    display: inline;
+}
+
+.radios li{
+    margin:0px;
+    padding:0px;
+    padding-right: 25px;
+    display: inline-block;
+    list-style-type: none;
+}
+
+.checkboxes label{
+    text-align: left;
+}
+
+.form{
+    margin-bottom: 30px;  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#gender-heading{
+    font-weight: bold;
+    /* font-size: 20px; */
+}
+
+
+#updates-heading{
+    font-weight:bold;
+}
+
+.form-name{
+    padding-top: 20px;
+    padding-bottom:30px;
+}
+
+
+
+
+/* Style for footer */
+
+.footer{
+    background-color:#DF7A63;
+    width: 100%;
+    position: absolute;
+    left:0px;
+    margin-left: 0px;
+    margin-right:0px;
+    margin-top: 100px;}
+
+    /* style for Sarah Marjanovic link */
+
+#index{
+    text-decoration: none;
+    color:black;
+}
