@@ -1,0 +1,286 @@
+/* Style for nav bar*/
+
+
+
+html,body {
+    margin:0px;
+    padding: 0px;}
+
+#mainNav{
+    background-color:#7EA5C0;
+    width:100%;
+    
+    /* position: absolute; */
+    /* left:0px; */
+    /* margin-left: 0px;
+    margin-right:0px;
+    padding: 0px; */
+}
+
+
+nav{ 
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    /* font-weight: bold; */
+    position: fixed;
+    top: 0; 
+}
+
+.nav-item { 
+    display: inline;
+    padding-left: 0px;
+    padding-right: 60px;
+    /* padding-left: 60px; */
+    padding-top: 0px;
+    padding-bottom: 0px; 
+} 
+
+
+.nav-item a{
+    color: black;
+    vertical-align: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+#nav-menu {
+    list-style-type: none;
+	position: relative;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#logo{
+    width: 200px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+
+}
+
+
+
+/* style for landing page */
+
+
+
+
+.main {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+.centered{
+    position: absolute;
+    display: inline-block;
+    top:27%;
+    left:30%;
+    /* transform: translate (-50%, -50%); */
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 150px;
+    text-transform: uppercase;
+}
+
+#welcome-image{
+    width:100%;
+}
+
+
+
+
+/* style for covenants */
+
+
+
+
+.container1{ 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(223, 214, 196);
+    padding-bottom: 100px;
+}
+
+h2{
+    font-size: 70px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 50px; 
+    padding-bottom: 60px;
+}
+
+
+
+
+
+/* style for Announcements */
+
+
+
+
+
+.container2{
+    background-color: rgb(250, 245, 231);
+    width: 100%;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.mb-4{
+    border: 10px solid #7EA5C0;
+    border-radius: 10%;
+    margin: 10px;
+    padding-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      
+}
+
+.img-circle{
+    padding: 20px;
+    display: block;
+    margin:auto;
+}
+
+
+
+
+/* style for board & committees */
+
+
+
+
+.container3{
+    background-color: rgb(204, 204, 192);
+    width: 100%;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text-center{
+    margin-bottom: 80px;
+}
+
+#committees{
+    /* padding-bottom: 100px; */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#committees-list{
+    margin-top:0px;
+    margin-right: 400px;
+    margin-left: 400px;
+    margin-bottom: 200px;
+}
+
+.committees-header{
+    border-top:0px solid #000000;
+    border-left: 0px solid #000000;
+    border-right: 0px solid #000000;
+    border-bottom: 3px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+}
+
+#committees-para{
+    margin-right: 400px;
+    margin-left: 400px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+
+
+/* style for frequently asked questions (faqs) */
+
+
+
+.container4{
+    background-color: rgb(210, 223, 203);
+    width: 100%;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#faqs-list{
+    margin-top:0px;
+    margin-right: 385px;
+    margin-left: 385px;
+    margin-bottom: 200px; 
+}
+
+#faqs{
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+}
+
+.faqs{
+    border-top:0px solid #000000;
+    border-left: 0px solid #000000;
+    border-right: 0px solid #000000;
+    border-bottom: 3px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+}
+
+/* style for Contact Us */
+
+.google-map{
+    width: 750px;
+}
+
+.container5{
+    margin-bottom: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.subscribe-to-our-newsletter{ 
+    width: 500px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size:20px; 
+}
+
+.covenant-enforcement-request{
+    width: 500px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+#committees{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.committees{
+    color: #7EA5C0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#committees-heading{
+    padding-bottom: 0px;
+    font-weight: bold;
+}
+
+
+
+/* style for Footer */
+footer{
+    background-color: #7EA5C0;
+}

@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <Sarah Marjanovic> -- <designer> -- <developer>
+
+# THANKS
+
+    <Becky Ding> -- <instruction> -- <resource>
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Apache Server Configs, jQuery, Modernizr, Normalize.css
