@@ -9,47 +9,20 @@ html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
-
-header{
-  padding: 20px 0;
+body {
+  margin: 0;
 }
-
-
-
-
-header .row,
-footer .row{
-  display: flex;
-  align-items: center;
-}
-header h1{ 
-  font-weight: 600;
-  /*margin: 0;*/
-}
-
-header nav{
-  display: flex; 
-  justify-content: flex-end;
-}
-
-/*header p {
-  padding: 0 20 px;
-  margin: 0 20 px;
- }*/
-
-.jumbotron{
-  display: flex;
-  align-items: center;
-  background-image: url("../img/Artwork-detail2WebReady.jpg");
-  background-size: cover; 
-  color:#ffffff;
-  height: 500px;
-  /*width: 1000px;*/
-} 
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
 hgroup,
 main,
 menu,
-nav,
+/* nav, */
 section,
 summary {
   display: block;
@@ -265,9 +238,9 @@ th {
   h3 {
     page-break-after: avoid;
   }
-  .navbar {
+  /* .navbar {
     display: none;
-  }
+  } */
   .btn > .caret,
   .dropup > .btn > .caret {
     border-top-color: #000 !important;
@@ -1127,16 +1100,16 @@ a {
   color: #337ab7;
   text-decoration: none;
 }
-a:hover,
+/* a:hover,
 a:focus {
   color: #23527c;
   text-decoration: underline;
-}
-a:focus {
+} */
+/* a:focus {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
-}
+} */
 figure {
   margin: 0;
 }
@@ -1367,24 +1340,24 @@ mark,
 .text-primary {
   color: #337ab7;
 }
-a.text-primary:hover,
+/* a.text-primary:hover,
 a.text-primary:focus {
   color: #286090;
-}
+} */
 .text-success {
   color: #3c763d;
 }
-a.text-success:hover,
+/* a.text-success:hover,
 a.text-success:focus {
   color: #2b542c;
-}
+} */
 .text-info {
   color: #31708f;
 }
-a.text-info:hover,
+/* a.text-info:hover,
 a.text-info:focus {
   color: #245269;
-}
+} */
 .text-warning {
   color: #8a6d3b;
 }
@@ -3100,7 +3073,7 @@ fieldset[disabled] a.btn {
 .btn-default:hover {
   color: #333;
   background-color: #e6e6e6;
-  border-color: #adadad;
+  /* border-color: #adadad; */
 }
 .btn-default:active,
 .btn-default.active,
@@ -3650,12 +3623,12 @@ tbody.collapse.in {
   left: auto;
 }
 .dropup .caret,
-.navbar-fixed-bottom .dropdown .caret {
+/* .navbar-fixed-bottom .dropdown .caret {
   content: "";
   border-top: 0;
   border-bottom: 4px dashed;
   border-bottom: 4px solid \9;
-}
+} */
 .dropup .dropdown-menu,
 .navbar-fixed-bottom .dropdown .dropdown-menu {
   top: auto;

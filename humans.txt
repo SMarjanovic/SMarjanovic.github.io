@@ -3,16 +3,13 @@
 
 # TEAM
 
-    <Sarah Marjanovic> -- <Designer> 
-    <Sarah Marjanovic> -- <Developer>
+    <Sarah Marjanovic> -- <designer> -- <developer>
 
 # THANKS
 
-    <Becky Ding> -- <instructor>
-    <Sharon Guillotte> -- <photographer>
+    <Becky Ding> -- <instruction> -- <resource>
 
 # TECHNOLOGY COLOPHON
 
-    Computer lab at Parkland College
     CSS3, HTML5
     Apache Server Configs, jQuery, Modernizr, Normalize.css
