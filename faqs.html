@@ -14,7 +14,23 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/bootstrap.css">
+      
+
+        <link rel="stylesheet" type="text/css" href="js/jquery-ui-1.12.1.custom/jquery-ui.min.css">
         <link rel="stylesheet" href="css/site.css">
+
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="js/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $("#accordion").accordion(
+                    { 
+                        // event: "mouseover",
+                        heightStyle: "content",
+                        collapsible: true 
+                    });
+            });
+        </script>
     </head>
 
     <body>    
@@ -61,7 +77,7 @@
                 </div>
     
                 <div class="col-md-2 text-center col-sm-1 nav-item-a">
-                        <a href="index.html"><img id="logo" src="img/Logo.png" alt="logo"></a>
+                        <a href="index.html"><img id="logo" src="img/Logo-2.png" alt="logo"></a>
                 </div>
     
                 <div class="col-md-2 text-center col-sm-1 nav-item">
@@ -82,42 +98,163 @@
          
      <!-- Frequently Asked Questions -->   
 
-     <div class="container container4">
-       <div class="col-md-12">
-            <h2 class="my-4">Frequently Asked Questions</h2>
-          <div id="faqs-list">
-            <ul id="faqs">
-                <li>
-                    <h3 class="faqs">HOA</h3>
-                </li>
+     <div class="container faqs-style">
+        <div class="row">
+            <div class="col-md-12">
+                 <h2 class="my-4">Frequently Asked Questions</h2>
+            </div>
+        </div>
 
-                <li>
-                    <h3 class="faqs">COVENANTS</h3>
-                </li>
+        <div class="row">
+          <div class="col-md-6 col-sm-3 col-md-offset-3">
+          <div class="faqs-list" id="accordion">
+            <h3 class="faqs">HOA</h3>
+            <div>
+                <p>
+                    <strong>Am I a member of the Prairie Fields Homeowners Association (PF HOA)?</strong>
+                    <br>
+                    If you own property within the Prairie Fields subdivision, then you are a member of PF HOA.  When you purchased your property in Prairie Fields, you automatically became a member of the PF HOA.
+                    <br>
+                    <br>
+                    <strong>What are the advantages of an active Homeowners Association?</strong>
+                    <br>
+                    An active HOA helps to ensure a neighborhood will remain physically attractive over many years, thus maintaining and often enhancing property values.
+                    <br>
+                    <br>
+                    <strong>Are Homeowners Associations common in central Illinois?</strong>
+                    <br>
+                    Nearly all newer neighborhoods in the Champaign-Urbana area have a Homeowners Association (HOA) to assist in maintaining the grounds around the neighborhood and to help maintain the quality of the development over many years.
+                    <br>
+                    <br>
+                    <strong>What is the history of Prairie Fields Homeowners Association (PF HOA)?</strong> 
+                    <br>
+                    The PF HOA was incorporated in 1996 by the developer of Prairie Fields subdivision.  From 1996 to 2008, the developer performed and paid for all services of the HOA.  Starting in 2009, the developer transitioned the association to a resident run, resident funded HOA, and in the fall of 2009 the residents of Prairie Fields elected a Board of Directors (BOD).
+                </p>
+            </div>
+                      
+        <h3 class="faqs">COVENANTS</h3>
+         <div>
+             <p>
+                <strong>Are there any rules or regulations which apply to my property?</strong>
+                <br>
+                Prairie Fields is regulated by covenants.   There are different covenants for each phase of the Prairie Fields development. Each set of covenants includes a map, showing the location of the properties which that set of covenants applies.  You can view the Prairie Fields Homeowners Association <a href="pdfs/bylaws.pdf" type="application/pdf"
+                target="_blank">Bylaws</a> adopted in 2008.
+                <br>
+                <br>
+                <strong>How is the HOA going to enforce covenants?</strong>
+                <br>
+                Actually, your covenants list covenant enforcement as the responsibility of a developer related committee.  The Board of Directors is working to change enforcement so that it is controlled by the Homeowners Association, and a committee will ultimately establish enforcement procedures.
+                <br>
+                <br>
+                <strong>What is covenant consolidation?</strong>
+                <br>
+                Because each phase of the subdivision has different covenants, the Board of Directors has a committee evaluating consolidating the different covenants into one set which would apply to all homes in PF.  The consolidated covenants would have to be approved by 75% of the residents of each phase of PF, which won’t be easy.  Email <a href="mailto:board@prairiefieldshoa.com?&subject=Volunteer inquiry">board@prairiefieldshoa.com</a> to volunteer for the Covenant Consolidation Committee.
+                <br>
+                <br>
+                <strong>Does the HOA have any regulations of Satallites, Antennas, Solar Panels, or Windmills?</strong>
+                The Prairie Fields HOA does not regulate any of these items.  The US Supreme Court has ruled that homeowners associations cannot restrict reasonably sized antenna or satallites.  However, the Village of Savoy does have restrictions on both Solar Panels and Windmills.  Windmills generally must be positioned so that they do not fall onto a neighbor’s property.  The Village of Savoy also has restrictions about height of windmills.  Also, the FAA regulates airspace within the flight approach to Willard Airport.  Contact <a href="mailto:Dan.Davies@savoy.illinois.gov?&subject=Web mail">Dan Davies</a> at the Village of Savoy for more information.
+             </p>
+         </div>
+      
+        <h3 class="faqs">DUES AND BUDGET</h3>
+          <div>
+              <p>
+                <strong>Why did I receive an invoice?</strong>
+                <br>
+                This year, the BOD established an Annual Assessment at $100.00 for all dwelling units.
+                <br>
+                <br>
+                <strong>Isn't $100.00 awful high for an Annual Assessment?</strong>
+                <br>
+                Most Homeowners Associations of newer neighborhoods in the Champaign-Urbana area charge $100.00 per year, just like Prairie Fields HOA.  Some charge as much as $250.00.  $100.00 is a lot of money, but it is what the Board of Directors determined was necessary to cover current expenses and have money available for possible future maintenance needs.
+                <br>
+                <br>
+                <strong>What do my dues pay for?</strong>
+                <br>
+                The largest budgeted expense is the mowing, fertilizing, and weed control of the grounds around the neighborhood that we maintain- a total of more than 12 acres of grass, trees, berms, ditches, and two detention basins.  The budget also includes liability insurance, printing, copying, postage, power bills for the subdivision sign, etc.  Just under half of the budget is set aside for capital improvements, which include the costs of repairing HOA owned storm drain tiles and HOA owned sidewalks when repairs are needed, and money for possible capital improvements.   Monthly statements are <a href="mailto:board@prairiefieldshoa.com?&subject=Web Mail">available upon request</a>.
+                <br>
+                <br>
+                <strong>What capital improvements are planned?</strong>
+                <br>
+                Current capital improvements include Prairie Fields signs at the entrances to the subdivision and replacing a portion of the HOA-owned concrete sidewalk at Indigo and Tomaras drainage backs up into the neighbor's lawns.  The BOD will weigh the costs and benefits of these and other improvements to determine if they are necessary and/or desirable, and if they can be completed without raising annual dues or jeopardizing our ability to complete required maintenance.
+                <br>
+                <br>
+                <strong>How do I get more information about the budget?</strong>
+                <br>
+                Monthly statements are <a href="mailto:board@prairiefieldshoa.com?&subject=Budget inquiry">available upon request</a>.  You can review the approved budget and meeting minutes <a href="https://drive.google.com/drive/folders/0B7LDw01_ZSTlRi1hMjBsWk9oZWc?usp=sharing" target="_blank">here</a>.
+                <br>
+                <br>
+                <strong>How do I get a dues statement?</strong>
+                <br>
+                If you are selling your home in Prairie Fields and need a closing letter, statement of accounts, or other closing documents related to HOA dues, click <a href="mailto:accounting@prairiefields.org?&subject=Web Mail">here</a> to email our accountant.
+            </p>
+          </div>
+            
 
-                <li>
-                    <h3 class="faqs">DUES AND BUDGET</h3>
-                </li>
+        <h3 class="faqs">GETTING INVOLVED</h3>
+          <div>
+              <p>
+                <strong>How was the Board of Directors (BOD) chosen?  Who is on the BOD?  Who are the officers?</strong>
+                <br>
+                See the <a href="index.html" target="_blank"> Board & Committees</a> page.
+                <br>
+                <br>
+                <strong>What committees does the HOA have?  How do I get involved with a committee?</strong>
+                <br>
+                To volunteer for any committee or attend a committee meeting please email <a href="mailto:board@prairiefieldshoa.com?&subject=Web Mail">board@prairiefieldshoa.com</a>.  To volunteer for the Neighborhood Events Committee or to help with one of the HOA events please email <a href="mailto:events@prairiefieldshoa.com?&subject=Web Mail">events@prairiefieldshoa.com</a>.
+              </p>
+          </div>
+            
+        <h3 class="faqs">LANDSCAPING</h3>
+          <div>
+              <p>
+                <strong>How does the Board of Directors (BOD) choose who mows or provides other services within Prairie Fields?</strong>
+                <br>
+                For large purchases, the BOD solicits a minimum of 3 bids.  The BOD evaluates bids on the basis of best overall value.  
+            </p>
+          </div>
+            
+        <h3 class="faqs">MAINTENANCE</h3>
+          <div>
+              <p>
+                    <strong>Do I have to remove snow from the sidewalks?</strong>
+                    <br>
+                    The HOA asks that you keep sidewalks clean and safe, especially for the children walking to school. However, neither the HOA nor the Village of Savoy has any snow removal ordinances. 
+                    <br>
+                    <br>
+                    <strong>What do I do if a street light is burnt out?</strong>
+                    <br>
+                    The street lights in Prairie Fields are owned and maintained by Ameren, and the Village of Savoy “rents” them.  Please contact <a href="mailto:brent.maue@savoy.illinois.gov?&subject=Web Mail">Brett Maue</a>, the Public Works Director/Village Engineer, and he will send a maintenance request to Ameren.
+                    <br>
+                    <br>
+                    <strong>Do I need permission to plant trees on my property? </strong>
+                    <br> 
+                    Only if you wish to plant in the right-of-way, which is between the street and sidewalk.  In that case, you will need approval from the Village of Savoy Arborist.  The Village, if funds are available, can reimburse the property owner for half of the total cost of purchase and installation of the tree up to $100.00 for each tree installed through the  <a href="http://www.savoy.illinois.gov/index.asp?SEC=71F7EDCF-5CF0-4A3C-8AC6-1A90B50DEE65&Type=B_BASIC" target="_blank"> Village Right-of-Way Tree Cost Sharing Program</a>.
+                    
+              </p>
+          </div>
+            
 
-                <li>
-                    <h3 class="faqs">GETTING INVOLVED</h3>
-                </li>
-
-                <li>
-                    <h3 class="faqs">LANDSCAPING</h3>
-                </li>
-
-                <li>
-                    <h3 class="faqs">MAINTENANCE</h3>
-                </li>
-
-                <li>
-                    <h3 class="faqs">PARKING</h3>
-                </li>
-            </ul>
+            
+        <h3 class="faqs">PARKING</h3>
+          <div>
+              <p>
+                    <strong>Can I park on the street?</strong>
+                    <br>
+                    As a resident, you are required to park all of your vehicles in your garage or driveway. The Covenants state that "All property owners shall provide and use at all times off-street parking for the number of automobiles in use by the owner or resident on the property”  
+                    ​<br>
+                    <br>
+                    <strong>Visitors are permitted to park on the street.</strong>  
+                    <br>
+                    If a vehicle is left unattended on the street for more than 7 days it may be towed by the Village of Savoy according to ordinance 8.20.070.  Please contact Savoy Building Inspector/Code Enforcement officer,  <a href="mailto:Gary.Zinn@savoy.illinois.gov?&subject=Web Mail">Gary Zinn</a>, for more information. 
+              </p>
+          </div>
+            
+        
          </div>
         </div>
-     </div>
+    </div>
+</div>
 
    
     <!-- Footer -->
@@ -153,16 +290,16 @@
         
             
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <!-- <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script> -->
         <script src="js/bootstrap.js" type="text/javascript"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+        <!-- <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script> -->
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
         <script>
             window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
-            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+            ga('create','UA-110253496-1,'auto');ga('send','pageview')
         </script>
         <script src="https://www.google-analytics.com/analytics.js" async defer></script>
     </body>
