@@ -55,7 +55,7 @@ $("#covenant-enforcement-form").validate( {
        
     }
 
-})
+});
 
 
 });
