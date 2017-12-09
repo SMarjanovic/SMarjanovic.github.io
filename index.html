@@ -11,12 +11,15 @@
         <link rel="apple-touch-icon" href="icon.png">
         <link rel="apple-touch-icon" href="favicon.ico">
 
+        <script src="js/main3.js"></script>
+
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="css/site.css">
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
         crossorigin="anonymous">
+        <link rel="stylesheet" href="css/site.css">
+
     </head>
 
     <body>    
@@ -50,10 +53,12 @@
             </div>
           </nav> -->
 
+    <button onclick="topFunction()" id="myBtn" title="Go to top">&#8679;</button>
+
     <div class="container nav" id="mainNav">
-        <div class="row">
+        <div class="row" id="menu-center" data-toggle="collapse" data-target="#navbar-collapsible">
             <div class="col-md-2 col-sm-1 text-center col-md-offset-1 nav-item">
-                    <a class="covenants" href="#covenants">Covenants</a>
+                    <a class="covenants active" href="#covenants">Covenants</a>
             </div>
 
             <div class="col-md-2 text-center col-sm-1 nav-item">
@@ -97,41 +102,41 @@
                                 <!-- wrapper with slides -->
                                 <div class="carousel-inner">
                                     <div class="item active">
-                                        <img class="img-responsive" src="img/PrairieFieldsHOASign-WebReady.jpg" alt="Prairie Fields sign" width="100%">
+                                        <img class="img-responsive" src="img/PrairieFieldsHOASign-WebReady.jpg" alt="Prairie Fields sign">
                                         <div class="carousel-caption"> 
                                             <h3 id="welcome">Welcome to Prairie Fields HOA</h3>
                                         </div>
                                     </div> 
 
                                     <div class="item">
-                                        <img class="img-responsive" src="img/Carrie-Busey-Ground-BreakingWebReady.jpg" alt="Carrie Busey Ground Breaking" width="100%">
+                                        <img class="img-responsive" src="img/Carrie-Busey-Ground-Breaking2.jpg" alt="Carrie Busey Ground Breaking">
                                         <div class="carousel-caption"> 
                                             <h3>Carrie Busey Ground Breaking</h3>
                                         </div>
                                     </div> 
 
                                     <div class="item">
-                                        <img class="img-responsive" src="img/4thJulyParadeWebReady.jpg" alt="4th of July Parade" width="100%">
+                                        <img class="img-responsive" src="img/independence-parade2.jpg" alt="4th of July Parade">
                                         <div class="carousel-caption"> 
-                                            <h3>4th of July Parade</h3>
+                                            <h3>Independence Day Parade</h3>
                                         </div>
                                     </div>   
 
                                     <div class="item">
-                                        <img class="img-responsive" src="img/BandPerformanceWebReady.jpg" alt="Band performance" width="100%">
+                                        <img class="img-responsive" src="img/BandPerformanceWebReady.jpg" alt="Band performance">
                                         <div class="carousel-caption"> 
                                             <h3>Band Performance</h3> 
                                         </div>
                                     </div>  
 
                                     <div class="item">
-                                        <img class="img-responsive" src="img/Halloween-ParadeWebReady.jpg" alt="Halloween parade" width="100%">
+                                        <img class="img-responsive" src="img/Halloween-parade2.jpg" alt="Halloween parade">
                                         <div class="carousel-caption"> 
-                                            <h3>Halloween Parade</h3>
+                                            <h3>Halloween Costume Parade</h3>
                                         </div>
                                     </div> 
                                     <div class="item">
-                                        <img class="img-responsive" src="img/TravisFieldDedicationWebReady.jpg" alt="Travis Field Dedication" width="100%">
+                                        <img class="img-responsive" src="img/TravisFieldDedicationWebReady.jpg" alt="Travis Field Dedication">
                                         <div class="carousel-caption"> 
                                             <h3 id="travis-caption">Travis Field Dedication</h3>
                                         </div>
@@ -165,7 +170,7 @@
         <div class="container container1" id="covenants">
                 <div class="row row-covenants">
                     <div class="col-md-12">
-                        <h2>Covenants</h2>
+                        <h2 class="section-heading">Covenants</h2>
                     </div>
                 </div>
 
@@ -177,7 +182,7 @@
                         
                         <div class="col-md-4 col-sm-4 col-md-offset-2">
                             <h3>About</h3>
-                            <p>The covenants are recorded in the county records in the county where the
+                            <p class="para-text">The covenants are recorded in the county records in the county where the
                                 property is located and are legally binding. This means that when you purchase
                                 a lot or a home in Prairie Fields you automatically become a member of the
                                 HOA. The Covenants, which were established by the builder, are the rules of the
@@ -244,7 +249,7 @@
       <div class="row">
 
              <div class="col-md-12 col-sm-12">
-                <h2>Announcements</h2>
+                <h2 class="section-heading">Announcements</h2>
              </div>
              <div class="col-md-1 text-center col-md-offset-1">
                  <p class="header-announcements">News</p>
@@ -260,21 +265,21 @@
                 <h3>Welcome New Board Members</h3>
                 <img class="img-circle img-responsive" src="img/new-board-members3.jpg" alt="">
                 <br>
-                <a  class="button" href="news-2.html">Read More</a>
+                <a  class="button" href="news-new-board-members.html">Read More</a>
         </div>
 
         <div class="col-md-2 col-sm-4 text-center mb-4">
             <h3>Board of Directors Election</h3>
             <img class="img-circle img-responsive" src="img/volunteer.jpg" alt="">
             <br>
-            <a  class="button" href="news-4.html">Read More</a>
+            <a  class="button" href="news-board-election.html">Read More</a>
         </div>
 
         <div class="col-md-2 col-sm-4 text-center mb-4">
                 <h3>Now Accepting Board Applications</h3>
-                <img class="img-circle img-responsive" src="img/applications.jpg" alt="" max-width="250px">
+                <img class="img-circle img-responsive" src="img/applications.jpg" alt="">
                 <br>
-                <a  class="button" href="news-1.html">Read More</a>
+                <a  class="button" href="news-accepting-applications.html">Read More</a>
         </div>
 
         <div class="col-md-2 col-sm-4 text-center mb-4">
@@ -282,7 +287,7 @@
                 <br>
                 <img class="img-circle img-responsive" src="img/welcome-students.jpg" alt="">
                 <br>
-                <a  class="button" href="news-3.html">Read More</a>
+                <a  class="button" href="news-welcome-students.html">Read More</a>
         </div>
         
         <div class="col-md-1"></div>
@@ -306,30 +311,30 @@
                 <br>
                 <img class="img-circle img-responsive" src="img/holidayLightcontest.jpg" alt="">
                 <br>
-                <a  class="button" href="event-4.html">Read More</a>
+                <a  class="button" href="event-holiday-light-contest.html">Read More</a>
             </div>
 
             <div class="col-md-2 col-sm-4 text-center mb-4">
                 <h3>Halloween Costume Parade</h3>
                 <img class="img-circle img-responsive" src="img/halloween-costume-parade.jpg" alt="">
                 <br>
-                <a  class="button" href="event-1.html">Read More</a>
+                <a  class="button" href="event-halloween-costume-parade.html">Read More</a>
             </div>
 
             <div class="col-md-2 col-sm-4 text-center mb-4">
                 <h3>Neighborhood Block Party</h3>
                 <br>
-                <img class="img-circle img-responsive" src="img/block-party.jpg" alt="">
+                <img class="img-circle img-responsive" src="img/block-party2.jpg" alt="">
                 <br>
-                <a  class="button" href="event-2.html">Read More</a>
+                <a  class="button" href="event-block-party.html">Read More</a>
             </div>
 
             <div class="col-md-2 col-sm-4 text-center mb-4">
                 <h3>Independence Day Parade</h3>
                 <br>
-                <img class="img-circle img-responsive" src="img/independence-day-parade4.jpg" alt="">
+                <img class="img-circle img-responsive" src="img/independence-day-parade5.jpg" alt="">
                 <br>
-                <a  class="button" href="event-3.html">Read More</a>
+                <a  class="button" href="event-independence-day-parade.html">Read More</a>
             </div>
 
 
@@ -346,7 +351,7 @@
             <div class="row">
       
               <div class="col-md-12 col-sm-12">
-                <h2>Meet the Board</h2>
+                <h2 class="section-heading">Meet the Board</h2>
               </div>
               <div class="col-md-1"></div>
                 <div class="col-md-2 col-sm-4 text-center board">
@@ -416,11 +421,11 @@
             
             <div class= "row">
                 <div class="col-md-12">
-                        <h2>Committees</h2>
+                        <h2 class="section-heading">Committees</h2>
                     <div id="committees-para" class="col-md-6 col-sm-6 col-md-offset-3">
-                        <p>The Prairie Fields HOA has a number of committees to assist in exploring issues, running an annual election, hosting neighborhood events, and more. 
-                            <br>
-                            Send an email to <a href="mailto:board@prairiefieldshoa.org?&subject=Web mail">board@prairiefieldshoa.org</a> to volunteer on a committee.</p> 
+                        <p class="para-text">The Prairie Fields HOA has a number of committees to assist in exploring issues, running an annual election, hosting neighborhood events, and more. 
+    
+                            Send an email to <a href="mailto:board@prairiefieldshoa.com?subject=Web-mail">board@prairiefieldshoa.com</a> to volunteer on a committee.</p> 
                     </div>
                 </div>
 
@@ -429,32 +434,32 @@
                         <ul id="committees">
                             <li>
                                 <h3 class="committees-header">Architectural Control</h3>
-                                <p>The goal of the Architectural Control Committee is to preserve the property values of all
+                                <p class="para-text">The goal of the Architectural Control Committee is to preserve the property values of all
                                         homeowners in Prairie Fields, and to ensure compliance with applicable covenants when a
                                         homeowner makes changes to their property.</p>
                             </li>
 
                             <li>
                                 <h3 class="committees-header">Communications</h3>
-                                <p>The Communications Committee is responsible for facilitating communications with residents of Prairie Fields, including an
+                                <p class="para-text">The Communications Committee is responsible for facilitating communications with residents of Prairie Fields, including an
                                         Annual Newsletter, maintaining this website and a Facebook group, and sending monthly email updates.</p>
                             </li>
 
                             <li>
                                 <h3 class="committees-header">Election</h3>
-                                <p>The Election Committee is responsible for running an annual election of the homeowners
+                                <p class="para-text">The Election Committee is responsible for running an annual election of the homeowners
                                         within Prairie Fields.</p>
                             </li>
 
                             <li>
                                 <h3 class="committees-header">Events</h3>
-                                <p>The Events Committee is responsible for organizing events
+                                <p class="para-text">The Events Committee is responsible for organizing events
                                         for residents of Prairie Fields.</p>
                             </li>
 
                             <li>
                                 <h3 class="committees-header">Welcoming</h3>
-                                <p>The Welcoming Committee is responsible for welcoming
+                                <p class="para-text">The Welcoming Committee is responsible for welcoming
                                         new residents to Prairie Fields.</p>
                             </li>
                         </ul>
@@ -474,7 +479,7 @@
         <div class="container container5" id="contact">
                 <div class="row-covenants">
                     <div class="col-md-12">
-                        <h2>CONTACT US</h2>
+                        <h2 class="section-heading">CONTACT US</h2>
                     </div>
                 </div>
                 <br>
@@ -488,15 +493,15 @@
                         <!-- <br> -->
                         <h3>Mail: P.O. Box 478, Savoy, IL 61874</h3>
                         <!-- <br> -->
-                        <h3>Email: <a href="mailto:board@prairiefieldshoa.com?&subject=Web mail">board@prairiefieldshoa.com</a></h3>
+                        <h3>Email: <a href="mailto:board@prairiefieldshoa.com?subject=Web-mail">board@prairiefieldshoa.com</a></h3>
                         <br>
                         <h3 id="committees-heading">GET IN TOUCH WITH COMMITTEES</h3>
-                        <ul id="committees">
-                            <li class="committees"><a href="mailto:ACC@prairiefields.org?&subject=Web mail">Architectural Control</a></li>
-                            <li class="committees"><a href="mailto:secretary@prairiefields.org?&subject=Web mail">Communications</a></li>
-                            <li class="committees"><a href="mailto:election@prairiefields.org?&subject=Web mail">Election</a></li>
-                            <li class="committees"><a href="mailto:events@prairiefields.org?&subject=Web mail">Events</a></li>
-                            <li class="committees"><a href="mailto:Welcoming@prairiefields.org?&subject=Web mail">Welcoming</a></li></li>
+                        <ul id="com-list">
+                            <li class="committees"><a href="mailto:ACC@prairiefields.org?subject=Web-mail">Architectural Control</a></li>
+                            <li class="committees"><a href="mailto:secretary@prairiefields.org?subject=Web-mail">Communications</a></li>
+                            <li class="committees"><a href="mailto:election@prairiefields.org?subject=Web-mail">Election</a></li>
+                            <li class="committees"><a href="mailto:events@prairiefields.org?subject=Web-mail">Events</a></li>
+                            <li class="committees"><a href="mailto:Welcoming@prairiefields.org?subject=Web-mail">Welcoming</a></li>
                         </ul>
                         <br>
                         <br>
@@ -508,18 +513,22 @@
                          <br>
                          <!-- <br> -->
                          <a class="form2-button" href="covenant-enforcement-form.html">Covenant Enforcement Request</a>
+                         <br>
+                         <br>
+                         <br>
                     </div>
 
                 
                     <div id="hoa-drop-box" class="col-md-4 col-sm-4">
                             <h3>HOA DROP BOX</h3>
                             <p>Residents can use the Prairie Fields HOA Drop Box to drop off paperwork to the HOA without the cost of a stamp.  The drop box is located on Prairie Rose Lane between Sunflower and Dropseed, on the West side of the street.</p>
-                            <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?zoom=17&center=40.0568%2C-88.2425&key=AIzaSyAGYqrEiPij-7YUma6qfP78Vu2kMJALKVw" allowfullscreen></iframe>
+                            <iframe width="600" height="450" style="border:0" src="https://www.google.com/maps/embed/v1/view?zoom=17&center=40.0568%2C-88.2425&key=AIzaSyAGYqrEiPij-7YUma6qfP78Vu2kMJALKVw" allowfullscreen></iframe>
                     </div>
 
                 </div>
             </div>
-            
+        </div>
+   
             
                 
          
@@ -538,11 +547,14 @@
                                    <p>Have Questions?  We Have Answers!</p>
                           </div>
                           <div class="col-md-3 col-sm-3 contact-us-footer">
-                               <p id="contact-header">Contact Us</p>
+                               <p class="contact-header">Contact Us</p>
                                   <ul class="footer-list">
                                       <li><a href="mailto:board@prairiefieldshoa.com?subject=Web-mail">board@prairiefieldshoa.com</a></li>
                                       <li>P.O. Box 478, Savoy, IL 61874</li>
                                       <li><a href="tel:217-689-1360">217.689.1360</a></li>
+                                      <li class="icon-item"> <a href="https://www.facebook.com/PFHOA/"  target="_blank"><img class="media-icon img-circle" src="img/facebook-icon.jpg" alt="facebook social media icon"></a></li>
+                                      <li class="icon-item"> <a href="https://nextdoor.com/neighborhood/prairiefields--savoy--il/"  target="_blank"><img class="media-icon img-circle" src="img/nextdoor-icon.jpg" alt="nextdoor social media icon"></a></li>
+                                      <li class="icon-item"> <a href="https://www.zillow.com/savoy-il/prairie-fields_att/"  target="_blank"><img class="media-icon img-circle" src="img/zillow-icon.jpg" alt="zillow icon"></a></li>
                                   </ul>
                           </div>
                       </div>
@@ -567,7 +579,7 @@
         <script src="js/bootstrap.js" type="text/javascript"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+       
 
         <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
         <script>
